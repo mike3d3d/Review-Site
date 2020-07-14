@@ -63,7 +63,7 @@
     background-image: url('WebsiteHeader.jpg');
     background-size: auto;
     margin: 0;
-    width: 100vw;
+    width: 100%;
 }
 
 .sec-nav{
