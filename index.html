@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Michael Skolnick Reviews</title>
+        <link type="text/css" rel="stylesheet" href="styles.css"/>
+        <link rel="shortcut icon" href="searchlogo.png" type="image/x-icon">
+        <link rel="icon" href="blogo.png" type="image/x-icon">
+    </head>
+    <body>
+        <body id="bodyone">
+            <header>
+             <div class="navbar" id="navbarBG">
+              </div>
+              <div class="sec-nav">
+                <a href="index.html">Home</a>
+                <span style="color: white; font-weight: bolder;font-size: 25px;">/</span>
+                <a id = "one" onmouseover="show()" onmouseout="hide()">Reviews</a>
+                <span style="color: white; font-weight: bolder;font-size: 25px;">/</span>
+                <a id = "two" onmouseover="showtwo()" onmouseout="hidetwo()">About</a>
+              </div>
+              <div id="show" style="background: rgb(20, 20, 20);width: 100%;overflow: hidden;padding: 5px 5px;top:0;bottom: 0;position: sticky;text-align: center;box-shadow: 3px 3px 7px rgb(20, 20, 20);" onmouseover="show()" onmouseout="hide()"> 
+                  <a href="index.html" class="reviewtype">Movies</a>
+                  <a href="index.html" class="reviewtype">Games</a>
+              </div>
+              <div id="showtwo" style="background: rgb(20, 20, 20);width: 100%;overflow: hidden;padding: 5px 5px;top:0;bottom: 0;position: sticky;text-align: left;box-shadow: 3px 3px 7px rgb(20, 20, 20);" onmouseover="show()" onmouseout="hide()"> 
+                <p style="float: left; font-size: 20px; color: white; margin-left: 10px; margin-right: 10px;">
+                    Since I was a child, I have been surrounded by film. It is a medium that has been part of
+                    my life for basically as long as I can remember. There has hardly been a moment where a James Bond movie,
+                    Jimmy Stewart classic, or Clint Eastwood western wasn't playing on my living room television.
+                    They are something that I have grown up around and have since become a passion for me. For as long
+                    as I can remember, I have wanted to have a place to put down my ideas and consolidate them
+                    into some kind of professional format, and I think this is the best place to do so. There will be no
+                    schedule or plan, but simply whenever I have something that I am itching to write about, whether it be
+                    a movie, series, video game, or possibly even book. Stay tuned for more soon... 
+                </p>
+            </div>
+               <div class="container">
+                  <div class="welcome">
+                    <br> <br>
+                    <h1 style="margin: 0;padding: 0;line-height: 0.9; float: left;font-size: 40px; "></h1>
+                    <p style="float: left; font-size: 20px;"></p>
+                    <br>
+                  </div>
+               </div>
+            
+            </header>
+      
+        <footer>
+          <div class="footer" id="footerBG">
+           <a href="//www.dmca.com/Protection/Status.aspx?ID=2fe8f474-df68-4a33-b296-6c454c75b571" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca_protected_26_120.png?ID=2fe8f474-df68-4a33-b296-6c454c75b571"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+              <p><code> Est. 7/13/20  | &#9400 2020 skolnickreviews.com All rights reserved </code></p>
+          </div>
+        </footer>
+
+        <script>
+          var button = document.getElementById("one");
+          var box = document.getElementById("show");
+
+          box.style.display = "none";
+
+          function show(){
+            box.style.display = "block";
+          }
+          function hide(){
+            box.style.display = "none";
+          }
+
+          var buttontwo = document.getElementById("two");
+          var boxtwo = document.getElementById("showtwo");
+
+          boxtwo.style.display = "none";
+
+          function showtwo(){
+            boxtwo.style.display = "block";
+            box.style.display = "none";
+          }
+          function hidetwo(){
+            boxtwo.style.display = "none";
+            box.style.display = "none";
+          }
+        </script>
+        
+    </body>
+</html>

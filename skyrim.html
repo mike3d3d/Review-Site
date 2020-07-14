@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bethesda | Modding</title>
+        <link type="text/css" rel="stylesheet" href="styles.css"/>
+        <link rel="shortcut icon" href="blogo.png" type="image/x-icon">
+        <link rel="icon" href="blogo.png" type="image/x-icon">
+    </head>
+    <body>
+        <body id="bodythree">
+            <header>
+             <div class="navbar" id="navbarBG">
+                 <img title="Gope!" id="seal-btn" src="blogo.png" style="height: 110px; float: left; cursor: pointer;padding-left:25px;" onclick="myFunc()"></img>
+      
+                <a href="index.html" id="title-text" style="color: white; font-family: 'Lexend Deca', sans-serif; font-size: 27px; font-weight: lighter; ">  Bethesda Mod<br> &nbsp &nbsp Database
+                </a>
+              </div>
+              <div class="sec-nav">
+                <a id = "one" onmouseover="show()" onmouseout="hide()">Games</a>
+                <span style="color: white; font-weight: bolder;font-size: 25px;">/</span>
+                <a id = "two" onmouseover="showtwo()" onmouseout="hidetwo()">About</a>
+              </div>
+              <div id="show" style="background: rgb(20, 20, 20);width: 100%;overflow: hidden;padding: 5px 5px;top:0;bottom: 0;position: sticky;text-align: center;box-shadow: 3px 3px 7px rgb(20, 20, 20);" onmouseover="show()" onmouseout="hide()"> 
+                  <a href="oblivion.html"><img src="oblivioncover.jpg" style="width: 15%; height: 15%; "></a>
+                  <a href="skyrim.html"><img src="skyrimcover.jpg" style="width: 15%; height: 15%; "></a>
+                  <a href="fo3.html"><img src="fo3cover.png" style="width: 15%; height: 15%; "></a>
+                  <a href="fonv.html"><img src="fonvcover.jpg" style="width: 15%; height: 15%; "></a>
+              </div>
+              <div id="showtwo" style="background: rgb(20, 20, 20);width: 100%;overflow: hidden;padding: 5px 5px;top:0;bottom: 0;position: sticky;text-align: left;box-shadow: 3px 3px 7px rgb(20, 20, 20);" onmouseover="show()" onmouseout="hide()"> 
+                <p style="float: left; font-size: 20px; color: white;">I have been a fan of Bethesda's games for as long as I can remember. I finally decided to try my hand at creating my own mods and wanted a place to upload them that wasn't the Nexus. I plan to start with Oblivion, however stay tuned for more... </p>
+            </div>
+               <div class="container">
+                  <div class="welcome">
+                   
+                  </div>
+               </div>
+            
+            </header>
+      
+        <footer>
+          <div class="footer" id="footerBG">
+           <a href="//www.dmca.com/Protection/Status.aspx?ID=2fe8f474-df68-4a33-b296-6c454c75b571" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca_protected_26_120.png?ID=2fe8f474-df68-4a33-b296-6c454c75b571"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+              <p><code> Est. 1/29/20  | &#9400 2020 bethesdamodbase.com All rights reserved </code></p>
+          </div>
+        </footer>
+
+        <script>
+          var button = document.getElementById("one");
+          var box = document.getElementById("show");
+
+          box.style.display = "none";
+
+          function show(){
+            box.style.display = "block";
+          }
+          function hide(){
+            box.style.display = "none";
+          }
+
+          var buttontwo = document.getElementById("two");
+          var boxtwo = document.getElementById("showtwo");
+
+          boxtwo.style.display = "none";
+
+          function showtwo(){
+            boxtwo.style.display = "block";
+            box.style.display = "none";
+          }
+          function hidetwo(){
+            boxtwo.style.display = "none";
+            box.style.display = "none";
+          }
+        </script>
+        
+    </body>
+</html>
