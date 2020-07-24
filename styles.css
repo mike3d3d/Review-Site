@@ -129,6 +129,19 @@ hr{
     background-color: black;
 }
 
+.box {
+    width: 85%; 
+    height: 500px; 
+    color: white;
+    border: white 2px solid; 
+    border-radius: 50px; 
+    margin-top: 4%; 
+    background-color: rgba(0, 128, 128, 0.5);
+    float: right;
+    position: static;
+    vertical-align: super;
+  }
+
 .bodyDiv{
     border: 1px solid black;
     width: 100%;
@@ -203,17 +216,53 @@ hr{
     color: white;
     padding: 15px 15px;
     float: left;
-
+    
  }
 
  .buttonBack:hover{
      cursor: pointer;
  }
 
+ 
+
  @font-face{
      font-family: "future";
      src: url("Outrun\ future\ Bold.otf");
  }
 
+ html {
 
+    scroll-behavior: smooth;
+    
+    }
+    
+    
+    .button1 {
+        background-color: green;
+        border: none;
+        color:white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        opacity: 0.6;
+      }
+    
+      .button1:hover {opacity: 1}
+    
+      @font-face{
+        font-family: 'Skyfall';
+        src: url("Skyfall.ttf");
+    }
+    
+    @font-face{
+        font-family: 'star wars';
+        src: url("Starjout.ttf");
+    }
+    
 
+        
+      
